@@ -4,7 +4,7 @@
 
 This project is an end to end data analysis case study focused on analyzing pizza sales data to evaluate business performance and identify key trends.
 
-SQL Server was used for data preparation, validation, and metric calculation. Power BI was used to build interactive dashboards for visualization and insight generation.
+Azure Data Studio was used for data preparation, validation, and metric calculation using SQL Server. Power BI was used to build interactive dashboards for visualization and insight generation.
 
 The project was driven by a defined problem statement with specific KPI and chart requirements. The final solution closely follows those requirements and mirrors real world data analyst workflows.
 
@@ -60,7 +60,8 @@ The raw data is stored as a CSV file and imported into SQL Server for analysis.
 
 ## Tools and Technologies Used
 
-- Microsoft SQL Server Management Studio  
+- Azure Data Studio  
+- SQL Server  
 - Power BI Desktop  
 - Power Query for data transformation  
 - DAX for calculated measures  
@@ -68,7 +69,7 @@ The raw data is stored as a CSV file and imported into SQL Server for analysis.
 
 ## Data Preparation and Validation
 
-The raw CSV file was imported into SQL Server where a dedicated database and table were created with appropriate data types.
+The raw CSV file was imported into SQL Server using Azure Data Studio, where a dedicated database and table were created with appropriate data types.
 
 Validation steps included:
 
@@ -177,11 +178,3 @@ All Power BI metrics and visuals were cross checked against SQL query results to
 
 Any discrepancies were resolved before finalizing the dashboards.
 
-
-## Final Outcome
-
-This project delivers a validated and interactive analytics solution aligned with defined business requirements.
-
-It demonstrates strong skills in SQL querying, data validation, Power BI modeling, DAX, visualization design, and business focused storytelling.
-
-This project is suitable for inclusion in a professional data analyst portfolio.
